@@ -5,14 +5,20 @@
     text-decoration: none;
     color: #2e2f42;
 }
-button {
+.hero-button {
     cursor: pointer;
     color: #FFF;
     background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-button:hover {
-background-color: #404BBF
+.hero-button:focus {
+    background-color: #404BBF
+}
+.hero-button:hover {
+    background-color: #404BBF;
 }
 
 body {
@@ -44,7 +50,7 @@ background-color: #FFFFFF;
     color: #404BBF
 }
 address {
-    color: var(--SLATE, #434455);
+    color: #434455;
         /* Body */
         font-size: 16px;
         font-style: normal;
@@ -53,10 +59,13 @@ address {
         /* 150% */
         letter-spacing: 0.02em;
 }
-.contacts-link:hover {
-    color: #404BBF;
+.contacts-link:focus {
+    color: #404bbf;
 }
 
+.hero {
+    background-color: #2e2f42;
+}
 
 .main-header {
 color: var(--WHITE, #FFF);
@@ -70,6 +79,7 @@ background: var(--NAVY-BLUE, #2E2F42);
     /* 107.143% */
     letter-spacing: 0.02em;
 }
+
 .benefits-header {
 font-size: 20px;
     font-weight: 500;
@@ -85,8 +95,12 @@ color: var(--SLATE, #434455);
     /* 150% */
     letter-spacing: 0.02em;
 }
+.our-team {
+    background-color: #F4F4FD;
+}
 .middle-header {
-    text-align: center;
+        color: #2e2f42;
+        text-align: center;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -96,6 +110,7 @@ color: var(--SLATE, #434455);
         text-transform: capitalize;
 }
 .small-header {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
